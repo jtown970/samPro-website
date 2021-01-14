@@ -9,7 +9,7 @@ export const homeObjOne = {
     'things about me that you should have on a website ',
   buttonLabel: 'Get Started',
   imgStart: false,
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/img1.jpg'),
   alt: 'Car',
   dark: true,
   primary: true,
@@ -27,7 +27,7 @@ export const homeObjTwo = {
     'I have been making homes nicer for years click below to become one of them',
   buttonLabel: 'Learn More',
   imgStart: true,
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/outDoorDeck.jpg'),
   alt: 'Piggybank',
   dark: false,
   primary: false,
@@ -45,9 +45,10 @@ export const homeObjThree = {
     "I like this website great job jason.",
   buttonLabel: 'Start Now',
   imgStart: false,
-  img: require('../../images/svg-3.svg'),
+  img: require('../../images/master-bath.jpg'),
   alt: 'Papers',
   dark: false,
   primary: false,
   darkText: true
 };
+

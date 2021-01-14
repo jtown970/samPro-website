@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
 import Video from '../../videos/video.mp4';
-import bg from '../../videos/bg-sam.jpg';
+import sambg from '../../images/kitchen.jpg'
 import {
   HeroContainer,
   HeroBg,
@@ -21,13 +21,19 @@ function HeroSection() {
   const onHover = () => {
     setHover(!hover);
   };
+
+  const bgstyle = {
+    width: '100vw',
+    height: '100vh'
+  }
+
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        {/* <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' /> */}
+        <img style={bgstyle} src='https://cdn.hipwallpaper.com/i/30/74/gbnNUq.jpg'  />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Sam Pro LLc</HeroH1>
+        <HeroH1>SamPro LLc</HeroH1>
         <HeroP>
           With Years of experience mix with years of passion
         </HeroP>
